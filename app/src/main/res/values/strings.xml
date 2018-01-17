@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Rick and Morty Quiz</string>
+    <string name="hint">Hint</string>
+    <string name="submit_answers">Submit Answers</string>
+    <string name="grade_answers">Grade Answers</string>
+    <string name="insert_answer">Answer</string>
+    <string name="reset">Reset</string>
+
+
+
+    <!--All the strings for question number 1.-->
+    <string name="question_note_1">Let\'s start off with an easy one:</string>
+    <string name="question_1">1.Which is the central character in Rick and Morty?</string>
+
+    <!--All the strings for question number 2.-->
+    <string name="question_note_2">Ooh, wee! Do you know the family tree?</string>
+    <string name="question_2">2.What character(s) is considered Rick\'s family?</string>
+
+    <!--All the strings for question number 3.-->
+    <string name="question_note_3">I\'m Mr.Smartie Pants, look at me!</string>
+    <string name="question_3">3.What is the motto of Meeseeks creatures?</string>
+
+    <!--All the strings for question number 4.-->
+    <string name="question_note_4">This one is about Morty Smith of C-137:</string>
+    <string name="question_4">4.How old is Morty?</string>
+
+    <!--All the strings for question number 5.-->
+    <string name="question_note_5">Jerry Smith aka the thorn in Rick\'s side:</string>
+    <string name="question_5">5.According to Jerry is Pluto a planet?</string>
+
+    <!--All the strings for question number 6.-->
+    <string name="question_note_6">Let\'s see who is a TV shows junkie:</string>
+    <string name="question_6">6.Who is the voice of Beth Smith?</string>
+
+    <!--All the strings for question number 7.-->
+    <string name="question_note_7">Graaass… tastes bad, just like this question:</string>
+    <string name="question_7">7.How many seasons does the show have?</string>
+
+    <!--All the strings for question number 8.-->
+    <string name="question_note_8">This should be easy, really:</string>
+    <string name="question_8">8.What year did Rick and Morty debut?</string>
+
+    <!--All the strings for question number 9.-->
+    <string name="question_note_9">Might be a tough one, depends on how much you like the show:</string>
+    <string name="question_9">9.Who are the creators of the show?</string>
+
+    <!--All the strings for question number 10.-->
+    <string name="question_note_10">A birdperson can help you with this one:</string>
+    <string name="question_10">10.What does "Wubba Lubba Dub Dub" mean?</string>
+
+</resources>
