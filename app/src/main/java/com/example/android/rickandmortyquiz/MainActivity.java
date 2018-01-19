@@ -12,10 +12,18 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
+    /**
+     * These are the correct answers to the free input/edit text.
+     * They never change and are used to compare your answer with them.
+     */
     String correctAnswer1 = "Rick";
     String correctAnswer4 = "14";
     String correctAnswer6 = "Sarah Chalke";
     String correctAnswer8 = "2013";
+    /**
+     * This variables are used for the final count of correct answers. They are and should be declared globally.
+     * Their values will be 1 or 0. 1 means correct answer.
+     */
     int verdictFor1 = 0;
     int verdictFor2 = 0;
     int verdictFor3 = 0;
@@ -55,7 +63,7 @@ public class MainActivity extends AppCompatActivity {
         /**
          * If the answer is correct the verdict is 1 else it's 0. Therefore, adding up the variables to obtain the number of correct answers.
          */
-        int numberOfCorrectAnswers = verdictFor1 + verdictFor2 + verdictFor3 + verdictFor4 + verdictFor5 + verdictFor6 + verdictFor7 + verdictFor7 +verdictFor8 + verdictFor9 + verdictFor10;
+        int numberOfCorrectAnswers = verdictFor1 + verdictFor2 + verdictFor3 + verdictFor4 + verdictFor5 + verdictFor6 + verdictFor7 + verdictFor8 + verdictFor9 + verdictFor10;
         Toast.makeText(this, "You have answered correctly " + numberOfCorrectAnswers + " out of 10 questions!", Toast.LENGTH_LONG).show();
     }
     /**
@@ -190,7 +198,9 @@ public class MainActivity extends AppCompatActivity {
             verdictFor10 = 0;
         }
     }
-
+    /**
+     * This method resets the app.
+     */
     public void resetApp (View view){
         Intent MainActivity = getBaseContext().getPackageManager()
                 .getLaunchIntentForPackage( getBaseContext().getPackageName() );
